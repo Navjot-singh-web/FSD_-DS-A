@@ -1,0 +1,12 @@
+import --> adding modules
+js makes website functional.
+export --> help to use any function in ( predefine code to use everwhere in module)
+
+.jsx --> convert js code into jsx using bebal
+         react can not understand js 
+         react only understand jsx
+
+perent flow -->   (perent --> child )
+                 index.html --> main.jsx --> app.jsx --> Component
+
+run component --> open folder terminal --> npm run  dev 
