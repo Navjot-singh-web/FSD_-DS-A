@@ -1,0 +1,14 @@
+2015 ES6 js updated ver
+scripting lang: additional immbaded it run with some other lang ( can not run individule)
+
+boilder plate : basic structure of a lang
+print in js:
+           1. console.log()      --> developer side
+           2. documment.write()  --> user side
+           3. alert              --> work on reloding,    content area jb tak visible nhi hoga jb tk alert close nhi hoga, alert relode the DOM (node refresh)
+                                    DOM prioritise the alert
+log : iteration
+documment : content area
+  reloding  :
+            1. alert
+            2. prompt
