@@ -19,5 +19,6 @@ Data-Type :
                      2. var
             after ES6 :
                       1. let
-                      2. var
+                      2. var     --> take last updated value.( updated value can be any type 
+                      (example: integer to Strring) )
                       3. const   --> only ones can declear.
