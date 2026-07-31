@@ -9,6 +9,15 @@ print in js:
                                     DOM prioritise the alert
 log : iteration
 documment : content area
-  reloding  :
+reloding  :
             1. alert
             2. prompt
+
+Data-Type :
+           before ES6:
+                     1. const
+                     2. var
+            after ES6 :
+                      1. let
+                      2. var
+                      3. const   --> only ones can declear.
