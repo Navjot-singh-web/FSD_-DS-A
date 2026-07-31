@@ -18,7 +18,13 @@ Data-Type :
                      1. const
                      2. var
             after ES6 :
-                      1. let
+                      1. let     --> ek variable ko ek baar declear ke skte ho ( kyoki ek variable ko ek location box alot) , initialise only once but we can update any times
+                                    * Can be reassigned but not redeclared in the same scope.
                       2. var     --> take last updated value.( updated value can be any type 
-                      (example: integer to Strring) )
+                                       (example: integer to Strring) )
+                                    * Can be redeclared and reassigned.
                       3. const   --> only ones can declear.
+                                    * Cannot be reassigned or redeclared.
+            
+            priority :  const > let > var
+                      because var  :   Function-scoped. Even if declared inside a block (if, for), it leaks outside.
