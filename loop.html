@@ -6,7 +6,7 @@
     <title>Loop</title>
 </head>
 <body>
-    <p id="demo"></p>
+    <!-- <p id="demo"></p> -->
     <script>
         // code for (FOR LOOP)
 
@@ -14,14 +14,29 @@
         //     document.write("<br> abes college");
         // }
 
-        const car = ["car1","car2","car3"];
-        let text = " "; // null charecter
-        for(i=0;i<car.length;i++){
-            if(i%2 ==0)
-            text +=car[i] + "<br>";
+        // const car = ["car1","car2","car3"];
+        // let text = " "; // null charecter
+        // for(i=0;i<car.length;i++){
+        //     if(i%2 ==0)
+        //     text +=car[i] + "<br>";
+        // }
+        // document.getElementById("demo").innerHTML=text;
+        // // document.write(text);
+
+        // while loop
+        // let n=1;
+        // while(n<=5){
+        //     document.write("<br> hello");
+        // }
+
+
+        let m = prompt("enter number: ");
+        let i=0;
+        while(i<=10){
+            document.write(`${m}`+"X"+ `${i}`+"=" +`${m*i}`+"<br>");
+            i++;
         }
-        document.getElementById("demo").innerHTML=text;
-        // document.write(text);
+
     </script>
 </body>
 </html>
