@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong Number</title>
+</head>
+<body>
+    <script>
+        var num = prompt("enter your number");
+        let digit=0;
+        var org = num;
+        while(num != 0){
+            digit++;
+            num= num/10;
+        }
+        num= org;
+        let ans =0;
+        while(num != 0){
+            ans = ans  + (num%10)**(digit);
+            num= num/10;
+        }
+        num= org;
+        if(org == ans){
+            document.write(`given ${num} is a armstrong number.`);
+        }
+        else{
+            document.write(`given ${num} is not a armstrong number.`);
+        }
+    </script>
+</body>
+</html>

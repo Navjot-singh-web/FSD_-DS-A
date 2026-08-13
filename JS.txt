@@ -1,0 +1,38 @@
+2015 ES6 js updated ver
+scripting lang: additional immbaded it run with some other lang ( can not run individule)
+
+boilder plate : basic structure of a lang
+print in js:
+           1. console.log()      --> developer side
+           2. documment.write()  --> user side
+           3. alert              --> work on reloding,    content area jb tak visible nhi hoga jb tk alert close nhi hoga, alert relode the DOM (node refresh)
+                                     DOM prioritise the alert
+           4. innerHTML          --> use inside the access modifer.
+                                     example : document.getElementById("demo").innerHTML=text;   here "demo" is parent class id.
+log : iteration
+documment : content area
+reloding  :
+            1. alert
+            2. prompt
+
+Data-Type :
+           before ES6:
+                     1. const
+                     2. var
+            after ES6 :
+                      1. let     --> ek variable ko ek baar declear ke skte ho ( kyoki ek variable ko ek location box alot) , initialise only once but we can update any times
+                                    * Can be reassigned but not redeclared in the same scope.
+                      2. var     --> take last updated value.( updated value can be any type 
+                                       (example: integer to Strring) )
+                                    * Can be redeclared and reassigned.
+                      3. const   --> only ones can declear.
+                                    * Cannot be reassigned or redeclared.
+            
+            priority :  const > let > var
+                      because var  :   Function-scoped. Even if declared inside a block (if, for), it leaks outside.
+
+
+in console.log()          --> auto-meticaly next line after execution.
+in documment.write()      -->  we have to use <br> for next line.
+                               example : document.write("Hello<br>");
+                                         document.write("World");
