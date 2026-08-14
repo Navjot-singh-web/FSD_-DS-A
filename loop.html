@@ -37,17 +37,47 @@
         //     i++;
         // }
 
-        const abes=() =>{
-           document.write("hello <br>");
+        // const abes=() =>{
+        //    document.write("hello <br>");
+        // }
+        // abes();
+        // abes();
+        // abes();
+
+        // const sum = (a,b) => document.write(`${a+b} <br> `);
+
+        // sum(1,1);
+        // sum(10,11);
+
+        const car = [car1,car2,car3];
+        const airplane = [airp1,airp2,airp3];
+        const helecopter = [ hp1,hp2,hp3];
+          let ch = prompt("enter your choice: ");
+         if(ch == 1){
+               const fun1 =(car) => {
+            for(var i=0;i<car.length;i++){
+               document.write(car[i]);
+            }
         }
-        abes();
-        abes();
-        abes();
-
-        const sum = (a,b) => document.write(`${a+b} <br> `);
-
-        sum(1,1);
-        sum(10,11);
+         }
+        else if(ch == 2){
+               const fun1 =(airplane) => {
+            for(var i=0;i<airplane.length;i++){
+               document.write(`${airplane[i]);
+            }
+        }
+         }
+        else if(ch == 3){
+               const fun1 =(heliecopter) => {
+            for(var i=0;i<heliecopter.length;i++){
+               document.write(`${heliecopter[i]}`);
+            }
+        }
+         }
+         else{
+            document.write("wrong input");
+         }
+       
 
     </script>
 </body>

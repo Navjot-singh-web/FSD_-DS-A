@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+
+<body>
+    <script>
+
+        // create object
+        const student = {
+            name: "Navjot",
+            class: "B.Tech",
+            fee: 100000
+        }
+
+        // document.write(student.name +"<br>");
+        // document.write(student.class+"<br>");
+        // document.write(student.fee+"<br>");
+        // document.write(JSON.stringify(student));
+
+
+        // document.write(Object.keys(student).join(", "));
+        // document.write(JSON.stringify(Object.keys(student)));
+
+        for(let key in student){
+            document.write(`${key} : ${student[key]} <br>`);
+        }
+
+    </script>
+</body>
+
+</html>
