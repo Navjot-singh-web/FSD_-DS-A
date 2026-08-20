@@ -6,7 +6,9 @@ print in js:
            1. console.log()      --> developer side
            2. documment.write()  --> user side
            3. alert              --> work on reloding,    content area jb tak visible nhi hoga jb tk alert close nhi hoga, alert relode the DOM (node refresh)
-                                    DOM prioritise the alert
+                                     DOM prioritise the alert
+           4. innerHTML          --> use inside the access modifer.
+                                     example : document.getElementById("demo").innerHTML=text;   here "demo" is parent class id.
 log : iteration
 documment : content area
 reloding  :
