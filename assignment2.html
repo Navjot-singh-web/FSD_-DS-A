@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const data = [
+            {
+            name: "a",
+                branch : "b.tech",
+                    fee : 1
+        },
+
+        {
+            name: "b",
+                branch : "m.tech",
+                    fee : 2
+        },
+
+        {
+            name: "c",
+                branch : "m.tech",
+                    fee : 3
+        }
+
+
+    ]
+
+    const choice = prompt("enter your branch prefrance( m.tech,mca, b.tech) :");
+    const filterData = data.filter((student) => student.branch === choice);
+    document.write(filterData.map((student) => `<p> Name: ${student.name}, Branch : ${student.branch}, Fee : ${student.fee}</p>`).join(""));
+
+    </script>
+</body>
+
+</html>
