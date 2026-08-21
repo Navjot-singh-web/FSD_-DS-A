@@ -53,7 +53,7 @@
     let product = prompt("Enter Your Product : ");
     let quntity = prompt("Enter Your qnt: ");
     function cost(product,quntity){
-        for(let key in menu){
+        for(let key in menu){   
             if(key == product){
                 let ans = menu[key]*quntity;
               document.write(`Your total Amount is : ${ans}`);
